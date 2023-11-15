@@ -145,8 +145,6 @@ header h1 {
     border-left: 5px solid #b91c1c;
     color: #b91c1c;
 }
-.alerta.success {
-}
 
 .contenedor {
     width: 90%;
@@ -185,6 +183,7 @@ header h1 {
 .formulario input[type="number"].nuevo-presupuesto {
     font-size: 2.8rem;
     text-align: center;
+    width: 100%;
 }
 
 .contenedor-presupuesto svg {

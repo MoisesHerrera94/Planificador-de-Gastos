@@ -9,7 +9,7 @@ import { object } from 'prop-types'
 
 function App() {
   const [presupuesto, setPresupuesto] = useState(
-    Number(localStorage.getItem("presupuesto")) ?? 0
+    Number(localStorage.getItem("presupuesto")) > 0 ? Number(localStorage.getItem("presupuesto")) : ""
   )
   const [isValidPresupuesto, setIsValidPresupuesto] = useState(false)
   const [modal, setModal] = useState(false)
